@@ -1,0 +1,41 @@
+QPushButton {
+    border-top: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    padding: 13px 5px 15px;
+    margin: 0;
+    color: #334c4c;
+    background: #d3d2d1;
+    font-size: 25px;
+    font-family: verdana, sans-serif;
+}
+
+QPushButton:hover {
+    color: #334c4c;
+    background: #e5f2ff;
+}
+
+QPushButton:pressed {
+    color: lightslategrey;
+    background: #85cafa;
+}
+
+BasicMathButton {
+    background-color: #ff9548;
+    border-right: none;
+    color: #f1ffff;
+    font-weight: 400;
+}
+
+NumberButton {
+    background-color: #e6e6e6;
+    font-weight: 400;
+}
+
+QLineEdit {
+    color: #d5eefc;
+    background-color: rgb(75, 114, 166);
+    padding-top: 20px;
+    font-family: "Microsoft Himalaya", serif;
+    font-size: 80px;
+    alignment: right;
+}
